@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div>
+  <nav>
+    <div
+      className="nav-wrapper cyan darken-3 z-depth-1"
+    >
+      <a
+        className="brand-logo"
+        href="#!"
+        style={
+          Object {
+            "paddingLeft": 20,
+          }
+        }
+      >
+        Gift Giver
+      </a>
+    </div>
+  </nav>
+  <div
+    style={
+      Object {
+        "justifyContent": "center",
+        "paddingLeft": "25%",
+        "paddingRight": "25%",
+      }
+    }
+  >
+    <h2
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      Gift Giver
+    </h2>
+    <div
+      className="gift-list"
+      style={
+        Object {
+          "paddingBottom": 20,
+        }
+      }
+    />
+    <div
+      class="section"
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "center",
+          "paddingTop": 30,
+        }
+      }
+    >
+      <button
+        className="btn-add btn btn-default"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Add Gift
+      </button>
+    </div>
+  </div>
+</div>
+`;
